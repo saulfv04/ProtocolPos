@@ -50,4 +50,9 @@ public class Protocol {
     public static final int ERROR_ERROR = 1;
     public static final int EXIT = 3;
 
+    public static final int DELIVER_MESSAGE=4;
+    public static final int ASYNC=5;
+    public static final int SYNC=6;
+
+
 }

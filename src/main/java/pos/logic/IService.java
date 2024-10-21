@@ -49,4 +49,6 @@ public interface IService {
 
     void exit();
 
+    public void deliver_message(String message);
+
 }
