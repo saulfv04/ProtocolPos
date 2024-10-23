@@ -53,6 +53,8 @@ public class Protocol {
     public static final int DELIVER_MESSAGE=4;
     public static final int ASYNC=5;
     public static final int SYNC=6;
+    public static final int REQUEST_ACTIVE_USERS=7;
+    public static final int NEW_CONNECTION=8;
 
 
 }

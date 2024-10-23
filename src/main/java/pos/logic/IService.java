@@ -51,4 +51,8 @@ public interface IService {
 
     public void deliver_message(String message);
 
+    public void notifyNewConection();
+
+    public List<String> usuariosActivos();
+
 }
