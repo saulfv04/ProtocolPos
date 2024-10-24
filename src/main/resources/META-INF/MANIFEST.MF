@@ -1,3 +1,8 @@
 Manifest-Version: 1.0
 Main-Class: 
+Class-Path: jgoodies-forms-1.9.0.jar bcprov-jdk15on-1.68.jar font-asian-
+ 7.1.15.jar forms-7.1.15.jar sign-7.1.15.jar barcodes-7.1.15.jar kernel-
+ 7.1.15.jar bcpkix-jdk15on-1.68.jar styled-xml-parser-7.1.15.jar slf4j-a
+ pi-1.7.30.jar pdfa-7.1.15.jar io-7.1.15.jar layout-7.1.15.jar jgoodies-
+ common-1.8.1.jar hyph-7.1.15.jar svg-7.1.15.jar
 

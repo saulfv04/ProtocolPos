@@ -1,13 +1,26 @@
 package pos.logic;
 
 import java.io.Serializable;
+import java.util.List;
 import java.util.Objects;
 
 public class Usuarios implements Serializable {
 
     String id;
     String clave;
+    List<Factura> listaFacturas;
 
+    public List<Factura> getListaFacturas() {
+        return listaFacturas;
+    }
+
+    public void setListaFacturas(List<Factura> listaFacturas) {
+        this.listaFacturas = listaFacturas;
+    }
+
+    public void anadirFactura(Factura factura){
+        listaFacturas.add(factura);
+    }
 
     public Usuarios() {
         this("", "");

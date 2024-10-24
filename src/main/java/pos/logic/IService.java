@@ -53,8 +53,9 @@ public interface IService {
 
     public void notifyNewConection();
 
-    public List<String> usuariosActivos();
+    public List<Usuarios> usuariosActivos();
 
     public void enviarFactura(Factura factura, String id) throws Exception;
 
+    List<Factura> enviarFacturas()throws Exception;
 }
