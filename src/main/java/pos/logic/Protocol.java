@@ -55,6 +55,8 @@ public class Protocol {
     public static final int SYNC=6;
     public static final int REQUEST_ACTIVE_USERS=7;
     public static final int NEW_CONNECTION=8;
+    public static final int FACTURA_SEND=9;
+    public static final int FACTURA_RECEIVE=10;
 
 
 }
