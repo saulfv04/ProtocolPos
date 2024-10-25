@@ -55,7 +55,7 @@ public interface IService {
 
     public List<Usuarios> usuariosActivos();
 
-    public void enviarFactura(Factura factura, String id) throws Exception;
+    public void enviarFactura(Factura factura, Usuarios usuario) throws Exception;
 
     List<Factura> enviarFacturas()throws Exception;
 }
