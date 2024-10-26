@@ -49,7 +49,7 @@ public interface IService {
 
     void exit();
 
-    public void deliver_message(String message);
+    void deliver_message(String message);
 
     public void notifyNewConection();
 

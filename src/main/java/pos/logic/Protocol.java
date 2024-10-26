@@ -43,6 +43,7 @@ public class Protocol {
     public static final int USUARIO_READ = 702;
     public static final int USUARIO_DELETE = 704;
     public static final int USUARIO_SEARCH = 705;
+    public static final int USUARIO_VERIFICATION=706;
 
     public static final int ESTADISTICAS_GETFACTURAS = 801;
 
@@ -57,6 +58,5 @@ public class Protocol {
     public static final int NEW_CONNECTION=8;
     public static final int FACTURA_SEND=9;
     public static final int FACTURA_RECEIVE=10;
-
 
 }
